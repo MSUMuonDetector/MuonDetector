@@ -1,0 +1,37 @@
+9/11/2022:
+---------------------------------
+| Get Muon Detection working    |
+|    - w/ interrupt for code    |
+| Get psu board designed        |
+---------------------------------
+
+          	    |
+	          |
+	          |
+                |
+                V
+
+This/Next week:
+------------------------------------
+| Design Muon Detector Board       |
+|    - Add V_threshold setting??   |
+| Figure out Vbias setting cal     |
+| Start thinking about main board  |
+------------------------------------
+
+To Do:
+- Barometer
+	- Design 
+	- Code
+	- Fit on main board
+- Temp/Humidity Sensor
+	- Code
+- SD Card module
+	- Code
+	- Fit on main board
+- Gyroscope/Accelerometer
+	- Design
+	- Fit on main board
+	- Code
+- Design Enclosure
+
