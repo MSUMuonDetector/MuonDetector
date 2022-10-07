@@ -21,7 +21,11 @@ AR Path="/6329D9E7" Ref="U?"  Part="1"
 AR Path="/6387D944/6329D9E7" Ref="U301"  Part="1" 
 F 0 "U301" H 6950 2515 50  0000 C CNN
 F 1 "MCP73832T-2ACI_OT" H 6950 2424 50  0000 C CNN
+<<<<<<< HEAD
 F 2 "IC_Microchip_MCP73832T-2ACI_OT:Microchip-C04-091-OT-0-F-MFG" H 6250 2650 50  0001 L CNN
+=======
+F 2 "Microchip-C04-091-OT-0-F-*" H 6250 2650 50  0001 L CNN
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 F 3 "http://www.mouser.com/ds/2/268/20001984g-846362.pdf" H 6250 2750 50  0001 L CNN
 F 4 "+85°C" H 6250 2850 50  0001 L CNN "ambient temperature range high"
 F 5 "-40°C" H 6250 2950 50  0001 L CNN "ambient temperature range low"
@@ -50,7 +54,10 @@ F 27 "SOT23-5" H 6250 5150 50  0001 L CNN "package"
 F 28 "Yes" H 6250 5250 50  0001 L CNN "rohs"
 F 29 "+85°C" H 6250 5350 50  0001 L CNN "temperature range high"
 F 30 "-40°C" H 6250 5450 50  0001 L CNN "temperature range low"
+<<<<<<< HEAD
 F 31 "C38066" H 6250 2250 50  0001 C CNN "LCSC Part Number"
+=======
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 	1    6250 2250
 	1    0    0    -1  
 $EndComp
@@ -109,7 +116,10 @@ F 0 "C302" H 5815 2446 50  0000 L CNN
 F 1 "4u7" H 5815 2355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 5738 2250 50  0001 C CNN
 F 3 "~" H 5700 2400 50  0001 C CNN
+<<<<<<< HEAD
 F 4 "C29823" H 5700 2400 50  0001 C CNN "LCSC Part Number"
+=======
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 	1    5700 2400
 	1    0    0    -1  
 $EndComp
@@ -140,7 +150,10 @@ F 0 "C304" H 8315 2596 50  0000 L CNN
 F 1 "4u7" H 8315 2505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 8238 2400 50  0001 C CNN
 F 3 "~" H 8200 2550 50  0001 C CNN
+<<<<<<< HEAD
 F 4 "C29823" H 8200 2550 50  0001 C CNN "LCSC Part Number"
+=======
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 	1    8200 2550
 	1    0    0    -1  
 $EndComp
@@ -187,7 +200,10 @@ F 0 "R302" H 6200 2500 50  0000 L CNN
 F 1 "10K" H 6200 2400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 6080 2450 50  0001 C CNN
 F 3 "~" H 6150 2450 50  0001 C CNN
+<<<<<<< HEAD
 F 4 "C2546745" H 6150 2450 50  0001 C CNN "LCSC Part Number"
+=======
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 	1    6150 2450
 	1    0    0    -1  
 $EndComp
@@ -230,7 +246,11 @@ AR Path="/6329DA76" Ref="C?"  Part="1"
 AR Path="/6387D944/6329DA76" Ref="C301"  Part="1" 
 F 0 "C301" H 4065 2846 50  0000 L CNN
 F 1 "1u" H 4065 2755 50  0000 L CNN
+<<<<<<< HEAD
 F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 3988 2650 50  0001 C CNN
+=======
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3988 2650 50  0001 C CNN
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 F 3 "~" H 3950 2800 50  0001 C CNN
 	1    3950 2800
 	1    0    0    -1  
@@ -323,7 +343,10 @@ F 0 "C306" H 9215 5596 50  0000 L CNN
 F 1 "10u" H 9215 5505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 9138 5400 50  0001 C CNN
 F 3 "~" H 9100 5550 50  0001 C CNN
+<<<<<<< HEAD
 F 4 "C13585" H 9100 5550 50  0001 C CNN "LCSC Part Number"
+=======
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 	1    9100 5550
 	1    0    0    -1  
 $EndComp
@@ -350,7 +373,10 @@ F 0 "C305" V 8950 5300 50  0000 C CNN
 F 1 "1.8n" V 8950 5450 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8838 5200 50  0001 C CNN
 F 3 "~" H 8800 5350 50  0001 C CNN
+<<<<<<< HEAD
 F 4 "C151869" H 8800 5350 50  0001 C CNN "LCSC Part Number"
+=======
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 	1    8800 5350
 	0    1    1    0   
 $EndComp
@@ -377,7 +403,10 @@ F 0 "R305" H 8400 5600 50  0000 C CNN
 F 1 "10K" H 8400 5500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8480 5550 50  0001 C CNN
 F 3 "~" H 8550 5550 50  0001 C CNN
+<<<<<<< HEAD
 F 4 "C2546745" H 8550 5550 50  0001 C CNN "LCSC Part Number"
+=======
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 	1    8550 5550
 	1    0    0    -1  
 $EndComp
@@ -393,7 +422,10 @@ F 0 "R306" V 8700 5050 50  0000 C CNN
 F 1 "30K" V 8700 5200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 8730 5100 50  0001 C CNN
 F 3 "~" H 8800 5100 50  0001 C CNN
+<<<<<<< HEAD
 F 4 "C17621" H 8800 5100 50  0001 C CNN "LCSC Part Number"
+=======
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 	1    8800 5100
 	0    1    1    0   
 $EndComp
@@ -418,7 +450,10 @@ F 0 "L301" H 8000 5065 50  0000 C CNN
 F 1 "3.9u" H 8000 4974 50  0000 C CNN
 F 2 "Inductor_SMD:L_0603_1608Metric" H 8000 4850 50  0001 C CNN
 F 3 "~" H 8000 4850 50  0001 C CNN
+<<<<<<< HEAD
 F 4 "C393984" H 8000 4850 50  0001 C CNN "LCSC Part Number"
+=======
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 	1    8000 4850
 	1    0    0    -1  
 $EndComp
@@ -444,7 +479,10 @@ F 0 "R303" H 7270 5246 50  0000 L CNN
 F 1 "10k" H 7270 5155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7130 5200 50  0001 C CNN
 F 3 "~" H 7200 5200 50  0001 C CNN
+<<<<<<< HEAD
 F 4 "C2546745" H 7200 5200 50  0001 C CNN "LCSC Part Number"
+=======
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 	1    7200 5200
 	1    0    0    -1  
 $EndComp
@@ -492,7 +530,10 @@ F 0 "C303" H 6865 5196 50  0000 L CNN
 F 1 "10u" H 6865 5105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 6788 5000 50  0001 C CNN
 F 3 "~" H 6750 5150 50  0001 C CNN
+<<<<<<< HEAD
 F 4 "C13585" H 6750 5150 50  0001 C CNN "LCSC Part Number"
+=======
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 	1    6750 5150
 	1    0    0    -1  
 $EndComp
@@ -506,7 +547,10 @@ F 0 "U302" H 7800 5667 50  0000 C CNN
 F 1 "LM2735XMF" H 7800 5576 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7850 5050 50  0001 L CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2735.pdf" H 7800 5400 50  0001 C CNN
+<<<<<<< HEAD
 F 4 "C555454" H 7800 5300 50  0001 C CNN "LCSC Part Number"
+=======
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 	1    7800 5300
 	1    0    0    -1  
 $EndComp
@@ -531,7 +575,10 @@ F 0 "J301" H 2658 2865 50  0000 C CNN
 F 1 "KH-TYPE-C-16P" H 2658 2774 50  0000 C CNN
 F 2 "MOLEX_USB_C:Molex-213716-0001-MFG" H 3150 2500 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3150 2500 50  0001 C CNN
+<<<<<<< HEAD
 F 4 "C709357" H 3000 2500 50  0001 C CNN "LCSC Part Number"
+=======
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 	1    3000 2500
 	1    0    0    -1  
 $EndComp
@@ -556,7 +603,10 @@ F 0 "R304" H 7970 2646 50  0000 L CNN
 F 1 "10K" H 7970 2555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 7830 2600 50  0001 C CNN
 F 3 "~" H 7900 2600 50  0001 C CNN
+<<<<<<< HEAD
 F 4 "C2546745" H 7900 2600 50  0001 C CNN "LCSC Part Number"
+=======
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 	1    7900 2600
 	1    0    0    -1  
 $EndComp
@@ -583,7 +633,10 @@ F 0 "D301" H 4600 2846 50  0000 L CNN
 F 1 "SMBJ9" H 4600 2755 50  0000 L CNN
 F 2 "SMBJ90CA:SMB" H 4500 2800 50  0001 C CNN
 F 3 "./Datasheets/SMBJ9.pdf" H 4500 2800 50  0001 C CNN
+<<<<<<< HEAD
 F 4 "C357964" H 4500 2800 50  0001 C CNN "LCSC Part Number"
+=======
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 	1    4500 2800
 	1    0    0    -1  
 $EndComp
@@ -635,7 +688,10 @@ F 0 "R301" V 5750 5100 50  0000 C CNN
 F 1 "10K" V 5950 5100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 5780 5100 50  0001 C CNN
 F 3 "~" H 5850 5100 50  0001 C CNN
+<<<<<<< HEAD
 F 4 "C2546745" H 5850 5100 50  0001 C CNN "LCSC Part Number"
+=======
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 	1    5850 5100
 	0    1    1    0   
 $EndComp
@@ -647,7 +703,10 @@ F 0 "Q301" V 5799 5350 50  0000 C CNN
 F 1 "NCE4614" V 5890 5350 50  0000 C CNN
 F 2 "Package_SO:SOP-8_3.9x4.9mm_P1.27mm" H 5750 5450 50  0001 C CNN
 F 3 "./Datasheets/1810010911_Wuxi-NCE-Power-Semiconductor-NCE4614_C136092" H 5550 5350 50  0001 C CNN
+<<<<<<< HEAD
 F 4 "C136092" H 5550 5350 50  0001 C CNN "LCSC Part Number"
+=======
+>>>>>>> 2ab958bd42dfc8b40e3bc8c265677ec759f8e374
 	1    5550 5350
 	0    1    1    0   
 $EndComp
