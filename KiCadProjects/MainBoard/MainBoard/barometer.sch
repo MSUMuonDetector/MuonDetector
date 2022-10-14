@@ -13,4 +13,326 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L power:+5V #PWR?
+U 1 1 634A0511
+P 2850 1450
+F 0 "#PWR?" H 2850 1300 50  0001 C CNN
+F 1 "+5V" H 2865 1623 50  0000 C CNN
+F 2 "" H 2850 1450 50  0001 C CNN
+F 3 "" H 2850 1450 50  0001 C CNN
+	1    2850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 634A0EF8
+P 2850 1700
+F 0 "C?" H 2965 1746 50  0000 L CNN
+F 1 "10u" H 2965 1655 50  0000 L CNN
+F 2 "" H 2888 1550 50  0001 C CNN
+F 3 "~" H 2850 1700 50  0001 C CNN
+	1    2850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 634A371D
+P 3200 1700
+F 0 "C?" H 3315 1746 50  0000 L CNN
+F 1 "2.2n" H 3315 1655 50  0000 L CNN
+F 2 "" H 3238 1550 50  0001 C CNN
+F 3 "~" H 3200 1700 50  0001 C CNN
+	1    3200 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1450 2850 1500
+Connection ~ 2850 1500
+Wire Wire Line
+	2850 1500 2850 1550
+$Comp
+L power:GND #PWR?
+U 1 1 634A3B09
+P 2850 1950
+F 0 "#PWR?" H 2850 1700 50  0001 C CNN
+F 1 "GND" H 2855 1777 50  0000 C CNN
+F 2 "" H 2850 1950 50  0001 C CNN
+F 3 "" H 2850 1950 50  0001 C CNN
+	1    2850 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1900 2850 1900
+Wire Wire Line
+	2850 1850 2850 1900
+Connection ~ 2850 1900
+Wire Wire Line
+	2850 1900 2850 1950
+Wire Wire Line
+	2850 1500 3200 1500
+Wire Wire Line
+	3200 1500 3200 1550
+Wire Wire Line
+	3200 1850 3200 1900
+Wire Wire Line
+	3200 1500 3550 1500
+Connection ~ 3200 1500
+Text Notes 2550 2850 2    50   ~ 0
+Pins 1-4 are used for\ntesting/calibrating and\nshould usually be left floating\n
+Wire Notes Line rgb(0, 0, 255)
+	1350 2900 1350 2550
+Wire Notes Line
+	1350 2550 2600 2550
+Wire Notes Line
+	2600 2550 2600 2900
+Wire Notes Line
+	2600 2900 1350 2900
+Wire Wire Line
+	3550 1500 3550 2150
+$Comp
+L Connector:TestPoint TP?
+U 1 1 634B2CB5
+P 2900 2400
+F 0 "TP?" V 3003 2472 50  0000 C CNN
+F 1 "TestPoint" V 3004 2472 50  0001 C CNN
+F 2 "" H 3100 2400 50  0001 C CNN
+F 3 "~" H 3100 2400 50  0001 C CNN
+	1    2900 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 634B457A
+P 2900 2600
+F 0 "TP?" V 3003 2672 50  0000 C CNN
+F 1 "TestPoint" V 3004 2672 50  0001 C CNN
+F 2 "" H 3100 2600 50  0001 C CNN
+F 3 "~" H 3100 2600 50  0001 C CNN
+	1    2900 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 634B46F9
+P 2900 2800
+F 0 "TP?" V 3003 2872 50  0000 C CNN
+F 1 "TestPoint" V 3004 2872 50  0001 C CNN
+F 2 "" H 3100 2800 50  0001 C CNN
+F 3 "~" H 3100 2800 50  0001 C CNN
+	1    2900 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 634B49DC
+P 2900 3000
+F 0 "TP?" V 3003 3072 50  0000 C CNN
+F 1 "TestPoint" V 3004 3072 50  0001 C CNN
+F 2 "" H 3100 3000 50  0001 C CNN
+F 3 "~" H 3100 3000 50  0001 C CNN
+	1    2900 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2900 2400 3000 2400
+Wire Wire Line
+	2900 2600 3000 2600
+Wire Wire Line
+	2900 2800 3000 2800
+Wire Wire Line
+	2900 3000 3000 3000
+$Comp
+L power:GND #PWR?
+U 1 1 634BA72C
+P 3550 3350
+F 0 "#PWR?" H 3550 3100 50  0001 C CNN
+F 1 "GND" H 3555 3177 50  0000 C CNN
+F 2 "" H 3550 3350 50  0001 C CNN
+F 3 "" H 3550 3350 50  0001 C CNN
+	1    3550 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3350 3550 3300
+Wire Wire Line
+	3700 3250 3700 3300
+Wire Wire Line
+	3700 3300 3550 3300
+Connection ~ 3550 3300
+Wire Wire Line
+	3550 3300 3550 3250
+$Comp
+L KP236:KP236 U?
+U 1 1 6349F40A
+P 3650 2700
+F 0 "U?" H 3100 3200 50  0000 L CNN
+F 1 "KP236" H 3750 3200 50  0000 L CNN
+F 2 "" H 4100 3400 50  0001 C CNN
+F 3 "" H 4100 3400 50  0001 C CNN
+	1    3650 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 634C7456
+P 4350 2900
+F 0 "C?" H 4465 2946 50  0000 L CNN
+F 1 "100n" H 4465 2855 50  0000 L CNN
+F 2 "" H 4388 2750 50  0001 C CNN
+F 3 "~" H 4350 2900 50  0001 C CNN
+	1    4350 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2650 4350 2650
+Wire Wire Line
+	4350 2650 4350 2750
+$Comp
+L power:GND #PWR?
+U 1 1 634C7CAB
+P 4350 3150
+F 0 "#PWR?" H 4350 2900 50  0001 C CNN
+F 1 "GND" H 4355 2977 50  0000 C CNN
+F 2 "" H 4350 3150 50  0001 C CNN
+F 3 "" H 4350 3150 50  0001 C CNN
+	1    4350 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3150 4350 3100
+$Comp
+L Device:R R?
+U 1 1 634C8116
+P 4800 2900
+F 0 "R?" H 4870 2946 50  0000 L CNN
+F 1 "59K" H 4870 2855 50  0000 L CNN
+F 2 "" V 4730 2900 50  0001 C CNN
+F 3 "~" H 4800 2900 50  0001 C CNN
+	1    4800 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2650 4800 2650
+Connection ~ 4350 2650
+Wire Wire Line
+	4800 2650 4800 2750
+Wire Wire Line
+	4800 3050 4800 3100
+Wire Wire Line
+	4800 3100 4350 3100
+Connection ~ 4350 3100
+Wire Wire Line
+	4350 3100 4350 3050
+Connection ~ 4800 2650
+Wire Wire Line
+	4800 2550 4800 2650
+$Comp
+L power:+5V #PWR?
+U 1 1 634CB20E
+P 4800 2150
+F 0 "#PWR?" H 4800 2000 50  0001 C CNN
+F 1 "+5V" H 4815 2323 50  0000 C CNN
+F 2 "" H 4800 2150 50  0001 C CNN
+F 3 "" H 4800 2150 50  0001 C CNN
+	1    4800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 634C9A48
+P 4800 2400
+F 0 "R?" H 4870 2446 50  0000 L CNN
+F 1 "59K - DNP" H 4870 2355 50  0000 L CNN
+F 2 "" V 4730 2400 50  0001 C CNN
+F 3 "~" H 4800 2400 50  0001 C CNN
+	1    4800 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2150 4800 2250
+Text Notes 5800 2250 2    50   ~ 0
+Populate Pull-up\nor Pull-down res.\nNOT BOTH
+$Comp
+L Device:R R?
+U 1 1 634CD924
+P 5200 2650
+F 0 "R?" V 5300 2500 50  0000 L CNN
+F 1 "100K" V 5300 2650 50  0000 L CNN
+F 2 "" V 5130 2650 50  0001 C CNN
+F 3 "~" H 5200 2650 50  0001 C CNN
+	1    5200 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 2650 4800 2650
+$Comp
+L Device:C C?
+U 1 1 634CEA4D
+P 5550 2900
+F 0 "C?" H 5665 2946 50  0000 L CNN
+F 1 "100n" H 5665 2855 50  0000 L CNN
+F 2 "" H 5588 2750 50  0001 C CNN
+F 3 "~" H 5550 2900 50  0001 C CNN
+	1    5550 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3050 5550 3100
+Wire Wire Line
+	5550 3100 4800 3100
+Connection ~ 4800 3100
+Wire Wire Line
+	5350 2650 5550 2650
+Wire Wire Line
+	5550 2650 5550 2750
+Text HLabel 5950 2650 2    50   Input ~ 0
+PRESSURE_SENSE_NS
+Wire Wire Line
+	5950 2650 5550 2650
+Connection ~ 5550 2650
+Wire Notes Line
+	5100 2000 5100 2300
+Wire Notes Line
+	5100 2300 5850 2300
+Wire Notes Line
+	5850 2300 5850 2000
+Wire Notes Line
+	5850 2000 5100 2000
+Text Notes 5550 3750 2    50   ~ 0
+VOUT = 0.01057*P[kPa]-0.32667
+Wire Notes Line
+	4200 3650 4200 3800
+Wire Notes Line
+	4200 3800 5600 3800
+Wire Notes Line
+	5600 3800 5600 3650
+Wire Notes Line
+	5600 3650 4200 3650
+Wire Notes Line
+	4250 4000 5500 4000
+Text Notes 4850 4150 2    50   ~ 0
+40
+Text Notes 4850 4300 2    50   ~ 0
+115
+Wire Notes Line
+	4950 3850 4950 4400
+Wire Notes Line
+	4250 4200 5500 4200
+Text Notes 4850 3950 2    50   ~ 0
+Pressure [kPa]
+Text Notes 5400 3950 2    50   ~ 0
+VOUT [V]
+Text Notes 5100 4150 2    50   ~ 0
+0.5\n
+Text Notes 5100 4300 2    50   ~ 0
+4.5
+Wire Notes Line
+	4150 4500 5700 4500
+Wire Notes Line
+	5700 4500 5700 3600
+Wire Notes Line
+	5700 3600 4150 3600
+Wire Notes Line
+	4150 3600 4150 4500
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -192,4 +192,112 @@ F 3 "" H 4100 4600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4100 4600 4100 4550
+Text HLabel 7300 4850 2    50   Input ~ 0
+PRESSURE_SENSE
+$Comp
+L power:+5V #PWR?
+U 1 1 63507331
+P 8350 3350
+F 0 "#PWR?" H 8350 3200 50  0001 C CNN
+F 1 "+5V" H 8365 3523 50  0000 C CNN
+F 2 "" H 8350 3350 50  0001 C CNN
+F 3 "" H 8350 3350 50  0001 C CNN
+	1    8350 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 3350 8350 3450
+Connection ~ 8350 3450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 63507C35
+P 7600 3750
+F 0 "#PWR?" H 7600 3600 50  0001 C CNN
+F 1 "+3V3" H 7615 3923 50  0000 C CNN
+F 2 "" H 7600 3750 50  0001 C CNN
+F 3 "" H 7600 3750 50  0001 C CNN
+	1    7600 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3750 7600 3800
+Connection ~ 7600 3800
+$Comp
+L power:+3V3 #PWR?
+U 1 1 63508BF2
+P 4100 4200
+F 0 "#PWR?" H 4100 4050 50  0001 C CNN
+F 1 "+3V3" H 4115 4373 50  0000 C CNN
+F 2 "" H 4100 4200 50  0001 C CNN
+F 3 "" H 4100 4200 50  0001 C CNN
+	1    4100 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4200 4100 4250
+Connection ~ 4100 4250
+$Comp
+L power:+5V #PWR?
+U 1 1 63509A01
+P 4400 4100
+F 0 "#PWR?" H 4400 3950 50  0001 C CNN
+F 1 "+5V" H 4415 4273 50  0000 C CNN
+F 2 "" H 4400 4100 50  0001 C CNN
+F 3 "" H 4400 4100 50  0001 C CNN
+	1    4400 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4100 4400 4150
+Wire Wire Line
+	4400 4150 4600 4150
+Text HLabel 4350 3000 0    50   Input ~ 0
+GP1818MK_TX
+$Comp
+L power:GND #PWR?
+U 1 1 6352CE46
+P 3550 2950
+F 0 "#PWR?" H 3550 2700 50  0001 C CNN
+F 1 "GND" H 3555 2777 50  0000 C CNN
+F 2 "" H 3550 2950 50  0001 C CNN
+F 3 "" H 3550 2950 50  0001 C CNN
+	1    3550 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3000 4500 3000
+Wire Wire Line
+	4500 3000 4500 2850
+Wire Wire Line
+	4500 2850 4600 2850
+Wire Wire Line
+	4600 2750 3550 2750
+Wire Wire Line
+	3550 2750 3550 2950
+Wire Wire Line
+	7050 4850 7050 4550
+Wire Wire Line
+	7050 4550 6950 4550
+Wire Wire Line
+	7050 4850 7300 4850
+Text HLabel 7350 4450 2    50   BiDi ~ 0
+SDA
+Wire Wire Line
+	7350 4450 7100 4450
+Wire Wire Line
+	7100 4350 6950 4350
+Wire Wire Line
+	7100 4450 7100 4350
+Text HLabel 7350 4550 2    50   BiDi ~ 0
+SCL
+Wire Wire Line
+	7350 4550 7100 4550
+Wire Wire Line
+	7100 4550 7100 4500
+Wire Wire Line
+	7100 4500 7000 4500
+Wire Wire Line
+	7000 4500 7000 4450
+Wire Wire Line
+	7000 4450 6950 4450
 $EndSCHEMATC
