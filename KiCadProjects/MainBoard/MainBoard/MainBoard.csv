@@ -1,0 +1,64 @@
+Reference, Value, Footprint, Datasheet
+R1,10K,Resistor_SMD:R_0805_2012Metric,~
+R2,10K,Resistor_SMD:R_0805_2012Metric,~
+TP5,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,~
+TP6,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,~
+TP7,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,~
+TP8,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,~
+J1,To PS Board,Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical_SMD_Pin1Left,~
+TP1,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,~
+TP2,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,~
+TP3,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,~
+TP4,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,~
+J3,To UI Board,Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical_SMD_Pin1Left,~
+C2,10u,Capacitor_SMD:C_0805_2012Metric,~
+TP18,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,~
+TP17,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,~
+C7,10u,Capacitor_SMD:C_0805_2012Metric,~
+C6,2.2n,Capacitor_SMD:C_0805_2012Metric,~
+C3,10u,Capacitor_SMD:C_0805_2012Metric,~
+C5,2.2n,Capacitor_SMD:C_0805_2012Metric,~
+C4,2.2n,Capacitor_SMD:C_0805_2012Metric,~
+U1,Teensy-LC,teensy:Teensy_LC,
+R8,2K74,Resistor_SMD:R_0805_2012Metric,~
+R6,1K,Resistor_SMD:R_0805_2012Metric,~
+C12,10n,Capacitor_SMD:C_0805_2012Metric,~
+U2,LMH6682,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,
+R4,1K,Resistor_SMD:R_0805_2012Metric,~
+R7,100K,Resistor_SMD:R_0805_2012Metric,~
+R5,1K,Resistor_SMD:R_0805_2012Metric,~
+C13,0.1u,Capacitor_SMD:C_0805_2012Metric,~
+R9,100R,Resistor_SMD:R_0805_2012Metric,~
+R10,100K,Resistor_SMD:R_0805_2012Metric,~
+C8,100n,Capacitor_SMD:C_0805_2012Metric,~
+R3,100R,Resistor_SMD:R_0805_2012Metric,~
+C9,1n,Capacitor_SMD:C_0805_2012Metric,~
+C11,1n,Capacitor_SMD:C_0805_2012Metric,~
+C10,2.2n,Capacitor_SMD:C_0805_2012Metric,~
+D1,D_Schottky,Diode_SMD:D_0805_2012Metric,~
+C15,10u,Capacitor_SMD:C_0805_2012Metric,~
+C16,2.2n,Capacitor_SMD:C_0805_2012Metric,~
+U3,KP236,eec:Infineon-KP236-Manufacturer_Recommended,
+C17,100n,Capacitor_SMD:C_0805_2012Metric,~
+R12,59K,Resistor_SMD:R_0805_2012Metric,~
+R11,59K - DNP,Resistor_SMD:R_0805_2012Metric,~
+R13,100K,Resistor_SMD:R_0805_2012Metric,~
+C19,100n,Capacitor_SMD:C_0805_2012Metric,~
+J4,JST 3-Pin,Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical,~
+C14,10u,Capacitor_SMD:C_0805_2012Metric,~
+J5,JST 4-Pin,Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical,~
+C18,1u,Capacitor_SMD:C_0805_2012Metric,~
+C20,1u,Capacitor_SMD:C_0805_2012Metric,~
+TP13,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,~
+TP15,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,~
+TP16,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,~
+TP14,TestPoint,TestPoint:TestPoint_Pad_D1.0mm,~
+R14,10K,Resistor_SMD:R_0805_2012Metric,~
+R15,10K,Resistor_SMD:R_0805_2012Metric,~
+C25,0.1u,Capacitor_SMD:C_0805_2012Metric,~
+C23,0.1u,Capacitor_SMD:C_0805_2012Metric,~
+U6,Opamp_Dual_Generic,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,
+C24,2.2n,Capacitor_SMD:C_0805_2012Metric,~
+U5,NLSV2T244DM,Package_SO:MSOP-8_3x3mm_P0.65mm,http://www.onsemi.com/pub/Collateral/NLSV2T244-D.PDF
+C21,2.2n,Capacitor_SMD:C_0805_2012Metric,~
+C22,2.2n,Capacitor_SMD:C_0805_2012Metric,~
